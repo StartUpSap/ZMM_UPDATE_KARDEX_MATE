@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition'
+define service ZC_SD_KARDEX_MAT_2 {
+  expose ZI_MAT_QUERY_3 as query3;
+}

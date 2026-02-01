@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition'
+define service ZC_SD_KARDEX_5 {
+  expose ZC_KDX_KARDEX_V2;
+}

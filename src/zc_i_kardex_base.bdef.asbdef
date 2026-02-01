@@ -1,0 +1,34 @@
+//unmanaged implementation in class zbp_c_i_kardex_base unique;
+//strict ( 2 );
+//
+//define behavior for ZC_I_KARDEX_BASE //alias <alias_name>
+////late numbering
+//lock master
+//authorization master ( instance )
+////etag master <field_name>
+//{
+//  create;
+//  update;
+//  delete;
+//  field ( readonly ) Material, Plant;
+//}
+
+
+
+//unmanaged implementation in class zbp_c_i_kardex_base unique;
+//
+//define behavior for ZI_KDX_KARDEX_CE
+//  with unmanaged implementation
+//  with service definition
+//{
+//  read;
+//}
+
+unmanaged implementation in class ZBP_KDX_KARDEX unique;
+
+define behavior for ZC_I_KARDEX_BASE alias kardex
+
+
+{
+  field ( readonly ) Material, Plant;
+}
